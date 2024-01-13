@@ -1,0 +1,225 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body{
+background-color: #020612;
+color: white;
+
+
+}
+.Logo{
+  background-image: url(./image/Aca.png);
+  width: 250px;
+  height: 250px;
+}
+
+.Header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+margin-bottom: 100px;
+
+}
+.sections{
+  display: flex;
+  gap: 30px;
+
+}
+.Digit{
+  display: inline;
+  font-size: 40px;
+  max-width: 600px;
+  text-align: center;
+
+}
+.Digit .red{
+
+}
+.youcan{
+  padding-left: 40px;
+  font-size: 35px;
+  text-align: center;
+  padding: 25px;
+  
+}
+.Welcome{
+  display: flex;
+  justify-content: space-around;
+}
+.Hash{
+  font-size: 50px;
+  text-align: start;
+  color: #cbcbcdd8;
+  padding-bottom: 30px;
+
+}
+.red{
+  color: #f87173;
+  padding-right: 50px;
+}
+.cour{
+  color: #Fbbf24;
+}
+.yel{
+
+  color: #059655;
+}
+.starttext{
+  padding-bottom: 40px;
+  font-size: 35px;
+  text-align: center;
+
+
+}
+.Start{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  justify-content: end;
+}
+
+.stbtn{
+margin-left: 15px;
+
+}
+.courses{
+  padding: 250px;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+.react{
+   background-position: center;
+  width: 70%;
+  background-size: cover;
+  height: 250px;
+  border: 0;
+  border-radius: 10px;
+  
+  
+  display: flex;
+  justify-content: center;
+  background-image: url('./image/React.png');
+}
+.reacta{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+
+
+}
+.laravel{
+  background-image: url('./image/Laravel.png');
+  background-position: center;
+  width: 70%;
+  height: 250px;
+}
+.price{
+  color: black;
+  text-align: end;
+  font-size: 24px;
+}
+.lineforprice{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile{
+  background-image: url(./image/Bero.jpg);
+  width: 70px;
+  height: 70px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  border: 1px solid black;
+  outline: 0;
+}
+.mentor{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  max-width: 1000px;
+  background-color: white;
+  color: black;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 2px;
+}
+.profileup{
+  display: flex;
+  
+  gap: 5px;
+
+}
+.name{
+  font-size: 20px;
+}
+.namemail{
+  font-size: 13px;
+  color: #c5c5c5;
+}
+
+.nameandmore div{
+  height: 5px;
+}
+.contacts{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 20px;
+}
+.mentorcenter{
+  display: flex;
+ 
+  align-items: center;
+  flex-direction: column;
+  
+}
+.skills{
+ background-color: white;
+ width: 70%;
+ max-width: 1000px;
+ color: black;
+ padding: 10px;
+
+}
+.skills div{
+  display: flex;
+  padding: 5px;
+  
+}
+.skills div {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.profile2{
+  width: 70px;
+  height: 70px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-image: url('https://tse3.mm.bing.net/th?id=OIP.tmgWGdzGFmIwg1iaqCbSvgHaHa&pid=Api&P=0&h=220');
+}
+.about{
+  margin: 100px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border: 1px solid white;
+ padding: 10px;
+ max-width: 450px;
+
+
+}
+
+.text{
+  max-width: 450px;
+  font-size: 24px;
+
+}
