@@ -240,4 +240,11 @@ margin-left: 15px;
 
 
 }
+.formage{
+  width: 240px;
+  height: 240px;
+  background-image: url('./image/Bero.jpg');
+  background-position: center;
+  background-size: cover;
+}
 
