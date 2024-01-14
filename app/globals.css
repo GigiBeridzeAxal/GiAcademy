@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-
+*{
+  font-family: 'Noto Sans Georgian', sans-serif;
+}
 
 body{
 background-color: #020612;
-color: white;
+color: rgba(255, 255, 255, 0.833);
 
 
 }
@@ -20,12 +22,15 @@ color: white;
   display: flex;
   align-items: center;
   justify-content: space-around;
-margin-bottom: 100px;
+  margin-bottom: 100px;
+
+
 
 }
 .sections{
   display: flex;
   gap: 30px;
+  font-size: 24px;
 
 }
 .Digit{
@@ -63,6 +68,7 @@ margin-bottom: 100px;
 .cour{
   color: #Fbbf24;
 }
+
 .yel{
 
   color: #059655;
@@ -213,6 +219,7 @@ margin-left: 15px;
  justify-content: center;
  
  padding: 10px;
+ 
 
  
 
@@ -223,8 +230,9 @@ margin-left: 15px;
   cursor: pointer;
 }
 .texter{
-  min-width: 1000px;
+
   max-width: 1000px;
+  
   
 
 
