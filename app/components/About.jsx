@@ -1,11 +1,47 @@
 import React, { useState } from 'react'
 
+
 export default function About() {
-    const [about, setabout ] = useState('About')
-    const [programs, setprograms ] = useState('Programs')
-    const [comings, setcomings ] = useState('Comings')
+    const [about, setabout ] = useState('ჩვენი კომპანია უკვე 50-წელია ემსახურება ქართული ციფრულ ტექნოლოგიის განვითარებას ჩვენ უკვე 50 ათასი პროგრამისტი დავასაქმეთ და ვასწავლეთ   ')
+    const [programs, setprograms ] = useState('ჩვენს პროგრამებში შეისწავლით ძალიან მაგარ რამეებს')
+    const [comings, setcomings ] = useState('მაგარ რამეებს ვამატებთ')
+    const [WhatCaner , SetWhatcan] = useState('ბევრ რამეს შეზლებთ')
+
+    const [text , settext] = useState('ჩვენი კომპანია უკვე 50-წელია ემსახურება ქართული ციფრულ ტექნოლოგიის განვითარებას ჩვენ უკვე 50 ათასი პროგრამისტი დავასაქმეთ და ვასწავლეთ')
 
   let [result, setresult] = useState('About')
+
+   const WhatCan = () =>{
+    setresult("WhatCan")
+    settext(WhatCaner)
+
+
+
+   }
+   const About = () =>{
+    setresult("About")
+    settext(about)
+
+
+
+   }
+   const News = () =>{
+    setresult("News")
+    settext(comings)
+
+
+
+
+   }
+   const Programs = () =>{
+    setresult("Programs")
+    settext(programs)
+
+
+
+   }
+
+
 
 
   return (
@@ -15,43 +51,67 @@ export default function About() {
 <div class="md:flex">
     <ul class="flex-column space-y space-y-4 text-sm font-medium text-gray-500 dark:text-gray-400 md:me-4 mb-4 md:mb-0">
         <li>
-            <a  class="inline-flex items-center px-4 py-3 text-white bg-blue-700 rounded-lg active w-full dark:bg-blue-600" aria-current="page">
-               
-                About Us
-            </a>
-        </li>
-        <li>
-            <a  class="inline-flex items-center px-4 py-3 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
-               
-                პროგრამები
-            </a>
-        </li>
-        <li>
-            <a  class="inline-flex items-center px-4 py-3 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
-               
-                სიახლეები
-            </a>
-        </li>
-        <li>
-          {
+        {
             result == "About"
-            ? <a  class="inline-flex items-center px-4 py-3 rounded-lg hover:text-gray-900 bg-blue-700 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+            ? <a  class="pointer text-white inline-flex items-center px-4 py-3 rounded-lg hover:text-gray-900 bg-blue-700 hover:bg-blue-500 w-full dark:bg-gray-800 dark:hover:bg-gray-700 hover:text-white">
                
-            სიახლეები
+            About Us
         </a>
-        : <a  class="inline-flex items-center px-4 py-3 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-gray-100 w-full dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+        : <a  onClick={() => About()} class=" pointer inline-flex items-center px-4 py-3 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-black-900 w-full dark:bg--100 dark:hover:bg-gray-700 dark:hover:text-red">
                
-        სიახლეები
+              About Us
     </a>
 
           }
         </li>
-     
+        <li>
+        {
+            result == "Programs"
+            ? <a  class="pointer text-white inline-flex items-center px-4 py-3 rounded-lg hover:text-gray-900 bg-blue-700 hover:bg-blue-500 w-full dark:bg-gray-800 dark:hover:bg-gray-700 hover:text-white">
+               
+            Programs
+        </a>
+        : <a  onClick={() => Programs()} class="pointer inline-flex items-center px-4 py-3 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-black-900 w-full dark:bg--100 dark:hover:bg-gray-700 dark:hover:text-red">
+               
+               Programs
+    </a>
+
+          }
+        </li>
+        <li>
+        {
+            result == "News"
+            ? <a  class="pointer text-white inline-flex items-center px-4 py-3 rounded-lg hover:text-gray-900 bg-blue-700 hover:bg-blue-500 w-full dark:bg-gray-800 dark:hover:bg-gray-700 hover:text-white">
+               
+            News
+        </a>
+        : <a  onClick={() => News()} class="pointer inline-flex items-center px-4 py-3 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-black-900 w-full dark:bg--100 dark:hover:bg-gray-700 dark:hover:text-red">
+               
+               News
+    </a>
+
+          }
+        </li>
+        <li>
+          {
+            result == "WhatCan"
+            ? <a  class=" pointer text-white inline-flex items-center px-4 py-3 rounded-lg hover:text-gray-900 bg-blue-700 hover:bg-blue-500 w-full dark:bg-gray-800 dark:hover:bg-gray-700 hover:text-white">
+               
+            What Get
+        </a>
+        : <a  onClick={() => WhatCan()} class="pointer inline-flex items-center px-4 py-3 rounded-lg hover:text-gray-900 bg-gray-50 hover:bg-black-900 w-full dark:bg--100 dark:hover:bg-gray-700 dark:hover:text-red">
+               
+               What Get
+    </a>
+
+          }
+        </li>
+    
     </ul>
     <div class="p-6 bg-gray-50 text-medium text-gray-500 dark:text-gray-400 dark:bg-gray-800 rounded-lg w-full">
         <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Profile Tab</h3>
-        <p class="mb-2">This is some placeholder content the Profile tab's associated content, clicking another tab will toggle the visibility of this one for the next.</p>
-        <p>The tab JavaScript swaps classes to control the content visibility and styling.</p> 
+        <p class="texter mb-2">{text}</p>
+       
     </div>
 </div>
 

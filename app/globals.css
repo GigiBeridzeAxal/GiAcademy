@@ -213,7 +213,19 @@ margin-left: 15px;
  justify-content: center;
  
  padding: 10px;
+
  
+
+
+}
+
+.pointer{
+  cursor: pointer;
+}
+.texter{
+  min-width: 1000px;
+  max-width: 1000px;
+  
 
 
 }
