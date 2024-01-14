@@ -9,6 +9,7 @@
 body{
 background-color: #020612;
 color: rgba(255, 255, 255, 0.833);
+overflow-x: hidden;
 
 
 }
@@ -53,6 +54,8 @@ color: rgba(255, 255, 255, 0.833);
 .Welcome{
   display: flex;
   justify-content: space-around;
+  margin-bottom: 250px;
+   
 }
 .Hash{
   font-size: 50px;
@@ -83,7 +86,7 @@ color: rgba(255, 255, 255, 0.833);
 .Start{
   display: flex;
   flex-direction: column;
-  margin-bottom: 50px;
+
   justify-content: end;
 }
 
@@ -95,7 +98,7 @@ margin-left: 15px;
   padding: 250px;
   display: flex;
   gap: 100px;
-  justify-content: center;
+  justify-content: center; margin-bottom: 250px;
 }
 .react{
    background-position: center;

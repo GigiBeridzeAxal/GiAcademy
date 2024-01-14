@@ -1,9 +1,16 @@
 import React from 'react'
+import {motion} from "framer-motion"
 
 export default function Courses() {
   return (
     <>
-   <div className="courses">
+   <motion.div initial={{x:"20%", opacity: "0" }}  transition={{duration:0.4}}    whileInView={{
+      x: "0",
+      opacity: "1",
+      
+
+
+     }}   className="courses">
 <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a className='reacta'  href="#">
         <img class="rounded-t-lg react"   alt="" />
@@ -50,7 +57,7 @@ export default function Courses() {
 </div>
 
 
-   </div>
+   </motion.div>
 
 
 

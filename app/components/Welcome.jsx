@@ -1,12 +1,22 @@
 import Link from 'next/link'
 import React from 'react'
+import {motion} from 'framer-motion'
 
 export default function Welcome() {
+
+
+
   return (
-    <div className="Welcome">
+    <motion.div initial={{x:"20%", opacity: "0" }}  transition={{duration:0.4}}    animate={{
+      x: "0",
+      opacity: "1",
+      
+
+
+     }}  className="Welcome">
 
         <div className="wel">
-            <div className="Hash">#დაიწყესწავლაახლავე</div>
+            <motion.div   className="Hash">#დაიწყესწავლაახლავე</motion.div>
    <div className="Digit"> <div className="red">ციფრული</div>  ტექნოლოგიების
      <span className='cour' > კურსებს </span> ეძებ ?</div>
      <div className="youcan">შენ ეს <span className='yel' > შეგიძლიაა </span>  !</div>
@@ -23,7 +33,7 @@ export default function Welcome() {
 
   </div>
    
-    </div>
+    </motion.div>
     
 
 
