@@ -2,12 +2,12 @@ import React, { useState } from 'react'
 
 
 export default function About() {
-    const [about, setabout ] = useState('ჩვენი კომპანია უკვე 50-წელია ემსახურება ქართული ციფრულ ტექნოლოგიის განვითარებას ჩვენ უკვე 50 ათასი პროგრამისტი დავასაქმეთ და ვასწავლეთ   ')
-    const [programs, setprograms ] = useState('ჩვენს პროგრამებში შეისწავლით ძალიან მაგარ რამეებს')
-    const [comings, setcomings ] = useState('მაგარ რამეებს ვამატებთ')
-    const [WhatCaner , SetWhatcan] = useState('ბევრ რამეს შეზლებთ')
+    const [about, setabout ] = useState('ჩვენი კომპანია უკვე 2-დღეა რაც ბაზარზე გამოჩნდა და ძალიან ბევრი მოსწავლე მივიღეთ და გავუწიეთ მენტორობა ჩვენ ვცდილობთ როცა მომხმარებელი ფულს იხდის ის გადახდილი თანხა ფუჭად არ იყოს გადაყრილი')
+    const [programs, setprograms ] = useState('ჩვენს პროგრამებში შეისწავლით ძალიან მაგარ და ერთ ერთ ყველაზე მოთხოვნად პროგრამირების კურსებს მაგალითად Front-End-ში შენ ისწავლი React-ს ანუ განვითარებულ Javascripts რაც ნიშნავს Html,Css,Javascript ის გაერთიანებას')
+    const [comings, setcomings ] = useState('ჩვენ სამომავლოდ გვაქვს დიდი გეგმები ვამატებთ ახლა კურსებს ახალ მენტორებს და ყველაზე მოთხოვნად პროფესიებს როგორიცაა Fullstack-დეველოპერი Ui/Ux Design და ბევრი სხვა ენები')
+    const [WhatCaner , SetWhatcan] = useState('როცა თქვენ ჩვენს მენტორობის ქვეშ ყველა კურსს წარმატებით ჩააბარებთ უკვე პროფესიულად საკმარისი ცოდნა გექნებათ და შეგეძლებათ იმუშავოთ თუნდაც ფრილანსერზე ან სხვა junior პოზიციაზე')
 
-    const [text , settext] = useState('ჩვენი კომპანია უკვე 50-წელია ემსახურება ქართული ციფრულ ტექნოლოგიის განვითარებას ჩვენ უკვე 50 ათასი პროგრამისტი დავასაქმეთ და ვასწავლეთ')
+    const [text , settext] = useState(about)
 
   let [result, setresult] = useState('About')
 
