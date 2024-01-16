@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {motion} from 'framer-motion'
 
 export default function Mentors() {
-    const [mentors, setmentors] = useState('Backend')
+    const [mentors, setmentors] = useState('All')
     const [selected, setselected] = useState('All')
 
 

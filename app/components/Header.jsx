@@ -2,6 +2,20 @@ import React from 'react'
 import {motion} from "framer-motion"
 
 export default function Header() {
+
+  const Courses = () =>{
+   window.scrollBy(0,1000)
+
+  }
+  const Mentors = () =>{
+    window.scrollBy(0,2000)
+ 
+   }
+   const About = () =>{
+    window.scrollBy(0,3000)
+ 
+   }
+  
   return (
     <motion.div   className="Header">
       <div className="Logo"></div>
@@ -13,9 +27,9 @@ export default function Header() {
 
 
      }}  className="sections">
-        <div className="Kursebi">კურსები</div>
-        <div className="mentors">მენტორები</div>
-        <div className="About">ჩვენს შესახებ</div>
+        <div onClick={() => Courses()} className="Kursebi">კურსები</div>
+        <div onClick={() => Mentors()} className="mentors">მენტორები</div>
+        <div onClick={() => About()} className="About">ჩვენს შესახებ</div>
 
       </motion.div>
 
