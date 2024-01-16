@@ -289,13 +289,23 @@ h1{
 }
 
   .reactcours{
-    height: 500px;
+
+
   }
   .courses{
-    width: 300px;
-    gap: 2px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-left: -50%;
+    gap: 10px;
     
   }
+  .courses div{
+    padding-bottom: 10px;
+  }
+
   .Logo{
     width: 100px;
     height: 100px;
