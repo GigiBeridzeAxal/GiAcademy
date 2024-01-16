@@ -4,6 +4,7 @@ import {motion} from "framer-motion"
 export default function Header() {
 
   const Courses = () =>{
+    
    window.scrollBy(0,1000)
 
   }
@@ -27,9 +28,9 @@ export default function Header() {
 
 
      }}  className="sections">
-        <div onClick={() => Courses()} className="Kursebi">კურსები</div>
-        <div onClick={() => Mentors()} className="mentors">მენტორები</div>
-        <div onClick={() => About()} className="About">ჩვენს შესახებ</div>
+        <div onClick={() => Courses()} className=" cursor-pointer Kursebi">Courses</div>
+        <div onClick={() => Mentors()} className=" cursor-pointer mentors">Mentors</div>
+        <div onClick={() => About()} className=" cursor-pointer About">About Us</div>
 
       </motion.div>
 

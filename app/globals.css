@@ -266,6 +266,9 @@ margin-left: 15px;
 .Mobile{
   display: none;
 }
+body{
+  scroll-behavior: smooth;
+}
 
 
 .namemail{
@@ -310,6 +313,7 @@ h1{
   display: none;
  }
  body{
+  scroll-behavior: smooth;
 
  }
  .p-10{
