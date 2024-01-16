@@ -3,7 +3,7 @@ import {motion} from 'framer-motion'
 
 export default function Mentors() {
     const [mentors, setmentors] = useState('Backend')
-    const [selected, setselected] = useState('Backend')
+    const [selected, setselected] = useState('All')
 
 
     const All = () =>{
