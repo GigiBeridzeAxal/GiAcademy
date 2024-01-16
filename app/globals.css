@@ -284,6 +284,10 @@ h1{
   .Header{
 
   }
+.reactfont{
+  font-size: 13px;
+}
+
   .reactcours{
     height: 500px;
   }
