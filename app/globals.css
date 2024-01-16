@@ -266,6 +266,8 @@ margin-left: 15px;
 .Mobile{
   display: none;
 }
+
+
 .namemail{
   font-size: 13px;
   color: #c5c5c5;
@@ -332,6 +334,28 @@ h1{
     background-image: url('./image/Aca.png');
 
     background-size: cover;
+  }
+  .React{
+    padding: 10px;
+ 
+  }
+  .gigi{
+    width: 50px;
+    height: 50px;
+    background-image: url('./image/Bero.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  .rea{
+    background-image: url('./image/react.png');
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+  }
+  .reactname{
+    align-items: center;
+    gap: 5px;
   }
 
 }
