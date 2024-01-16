@@ -48,7 +48,7 @@ export default function About() {
     <div className="about">
     
 
-<div class="md:flex">
+<div class=" aboutsize md:flex">
     <ul class="flex-column space-y space-y-4 text-sm font-medium text-gray-500 dark:text-gray-400 md:me-4 mb-4 md:mb-0">
         <li>
         {

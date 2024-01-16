@@ -8,6 +8,7 @@ import Welcome from './components/Welcome'
 import Courses from './components/Courses'
 import Mentors from './components/Mentors'
 import About from './components/About'
+import Mobile from './components/Mobile'
 
 export default function Home() {
   return (
@@ -16,10 +17,13 @@ export default function Home() {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@700&display=swap" rel="stylesheet"/>
 
+<Mobile></Mobile>
        <Header></Header>
        <Welcome></Welcome>
        <Courses></Courses>
        <Mentors></Mentors>
+       
+
        <About></About>
     </>
  

@@ -263,6 +263,9 @@ margin-left: 15px;
   
   
 }
+.Mobile{
+  display: none;
+}
 .namemail{
   font-size: 13px;
   color: #c5c5c5;
@@ -281,56 +284,54 @@ h1{
   text-align: center;
 }
 @media (max-width: 600px) {
-  .Header{
+ 
+  .about{
+    display: none;
+  }
+  .p-12{
+   display: block;
 
   }
-.reactfont{
-  font-size: 13px;
-}
-
-  .reactcours{
-   max-width: 400px;
-
+  .aboutsize{
+    min-width: 300px;
   }
+ .mentorcenter{
+  display: none;
+ }
   .courses{
-    width: min-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    margin-left: -50%;
-    gap: 10px;
-    
+  display:   none !important ; 
+ }
+  .wel{
+    display: none;
   }
-  .courses div{
-    padding-bottom: 10px;
+ .Header{
+  display: none;
+ }
+ body{
+
+ }
+ .p-10{
+  display: none;
+ }
+ .stbtn{
+  display: none;
+ }
+  .Men{
+    display: none;
+  }
+  .starttext{
+    display: none;
+  }
+  .Mobile{
+    display: block;
   }
 
-  .Logo{
+  .mobacaimg{
     width: 100px;
     height: 100px;
+    background-image: url('./image/Aca.png');
 
     background-size: cover;
   }
-  .sections{
-    font-size: 12px;
-    gap: 15px;
-  }
-  body{
-    padding: 10px;
-  }
- .Hash{
-  font-size: 16px;
- }
- .Digit{
-  font-size: 16px;
- }
- .youcan{
-  font-size: 16px;
- }
-  .starttext{
-    font-size: 16px;
-    
-  }
-  
+
 }
