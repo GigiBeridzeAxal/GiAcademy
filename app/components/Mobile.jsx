@@ -40,7 +40,7 @@ export default function Mobile() {
         </div>
 
 
-        <div className="React">
+        <div className="Reactor">
         <div class="bg-gray-800 py-24 sm:py-32">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:mx-0">
