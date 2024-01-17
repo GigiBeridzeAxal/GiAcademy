@@ -4,60 +4,101 @@ import {motion} from "framer-motion"
 export default function Courses() {
   return (
     <>
-   <motion.div initial={{x:"20%", opacity: "0" }}  transition={{duration:0.4}}    whileInView={{
-      x: "0",
-      opacity: "1",
-      
-
-
-     }}   className="courses">
-<div class=" reactcours max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a className='reacta'  href="#">
-        <img class="rounded-t-lg react"   alt="" />
-    </a>
-    <div class="p-5">
-        <a href="#">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">React</h5>
-        </a>
-        <p class=" reactfont mb-3 font-small text-gray-700 dark:text-gray-400">ეს პროგრამული ენაა Frontend Framework-ის ყველაზე ძლიერი იარაღი რაშიც გაერთიანებულია HTML,CSS,Javascript, და კიდევ ბევრი ენა </p>
-        <div className='lineforprice' >
-        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            დარეგისტრირდი
-             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-            </svg>
-        </a>
-        <div className='price' >5$</div>
-        </div>
-       
+    <div className=' reacour  px-40 py-10 text-xl' >Courses</div>
+<div className="Reactor">
+        <div class="bg-gray-800 py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-2xl lg:mx-0">
+      <h2 class=" flex reactname  text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl">React <div className=' rea' ></div> </h2> 
+      <p class="mt-2 text-lg leading-8 text-gray-600">Learn Most Valuable Web Language Right Now</p>
     </div>
+    <div class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+      <article class="flex max-w-xl flex-col items-start justify-between">
+        <div class="flex items-center gap-x-4 text-xs">
+          <time datetime="2020-03-16" class="text-gray-500">July 16 , 2024</time>
+          <a href="#" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Front-End Development</a>
+        </div>
+        <div class="group relative">
+          <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+            <a className='text-slate-200'  href="#">
+              <span class="absolute text inset-0"></span>
+              Make Big Projects With Your Mentors
+            </a>
+          </h3>
+          <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-400">Learn Most In Demand Language For Front-End Development When You Will Finish Course You Can Build Front-End Applications And Apis</p>
+        </div>
+        <div class="relative mt-8 flex items-center gap-x-4">
+          <div alt="" class=" gigi h-10 w-10 rounded-full ">
+          </div>
+          <div class="text-sm leading-6">
+            <p class="font-semibold text-gray-900">
+              <a className='text-slate-500'  href="#">
+                <span class="absolute inset-0"></span>
+                Gigi Beridze
+              </a>
+            </p>
+            <p class="text-gray-600">Co-Founder / Gi-Academy</p>
+          </div>
+        </div>
+      </article>
+
+
+    </div>
+  </div>
 </div>
 
+    
 
-<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a className='reacta' href="#">
-        <img class=" laravel rounded-t-lg"  alt="" />
-    </a>
-    <div class="p-5">
-        <a  href="#">
-            <h5 class="  mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Php/Laravel</h5>
-        </a>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Php/Laravel-არის Back-End-Development-ის ერთ ერთი იარაღი Laravel-ით კი უმარტივესად შექმნით რთულ Api-ის და მონაცემების ფილტრაციას </p>
-        <div className='lineforprice' >
-        <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            დარეგისტრირდი
-             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-            </svg>
-        </a>
-        <div className='price' >5$</div>
+
         </div>
-       
+        <div className="Reactor">
+        <div class="bg-gray-800 py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-2xl lg:mx-0">
+      <h2 class=" flex reactname  text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl">Laravel <div className=' lar' ></div> </h2> 
+      <p class="mt-2 text-lg leading-8 text-gray-600">Learn Most In Demant Web Language In Back-End Development</p>
     </div>
+    <div class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+      <article class="flex max-w-xl flex-col items-start justify-between">
+        <div class="flex items-center gap-x-4 text-xs">
+          <time datetime="2020-03-16" class="text-gray-500">July 16 , 2024</time>
+          <a href="#" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Back-End Development</a>
+        </div>
+        <div class="group relative">
+          <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+            <a className='text-slate-200'  href="#">
+              <span class="absolute text inset-0"></span>
+              Make Big Projects With Your Mentors
+            </a>
+          </h3>
+          <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-400">When You Study This Web Language You Can Make Back-End Websites Apis Databases And More You Can Make Big Projects Like Facebook</p>
+        </div>
+        <div class="relative mt-8 flex items-center gap-x-4">
+          <div alt="" class=" goga h-10 w-10 rounded-full ">
+          </div>
+          <div class="text-sm leading-6">
+            <p class="font-semibold text-gray-900">
+              <a className='text-slate-500'  href="#">
+                <span class="absolute inset-0"></span>
+                Goga Chxaidze
+              </a>
+            </p>
+            <p class="text-gray-600">Co-Founder / Gi-Academy</p>
+          </div>
+        </div>
+      </article>
+
+
+    </div>
+  </div>
 </div>
 
+    
 
-   </motion.div>
+
+        </div>
+       
+        
 
 
 

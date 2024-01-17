@@ -28,11 +28,22 @@ overflow-x: hidden;
 
 
 }
+.lar{
+
+  background-image: url('./image/PHP.png');
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-size: cover;
+}
 .sections{
   display: flex;
   gap: 30px;
   font-size: 24px;
 
+}
+.Reactor{
+  padding: 100px;
 }
 .Digit{
   display: inline;
@@ -185,6 +196,21 @@ margin-left: 15px;
   flex-direction: column;
   
 }
+.reactname{
+  align-items: center;
+  gap: 5px;
+}
+.goga{
+  background-position: center;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  background-image: url('https://tse3.mm.bing.net/th?id=OIP.tmgWGdzGFmIwg1iaqCbSvgHaHa&pid=Api&P=0&h=220');
+} 
+.reacour{
+  font-size: 36px;
+  text-align: center;
+}
 .skills{
  background-color: white;
  width: 70%;
@@ -269,7 +295,20 @@ margin-left: 15px;
 body{
   scroll-behavior: smooth;
 }
-
+.gigi{
+  width: 50px;
+  height: 50px;
+  background-image: url('./image/Bero.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.rea{
+  background-image: url('./image/React.png');
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-size: cover;
+}
 
 .namemail{
   font-size: 13px;
